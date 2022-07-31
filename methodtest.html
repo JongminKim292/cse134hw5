@@ -1,0 +1,58 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>HTTP with JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>    
+    <header>
+        <nav id = "menu">
+            <table style="width:100%">
+                <colgroup>
+                    <col style="width:25%">
+                    <col style="width:25%">
+                    <col style="width:25%">
+                    <col style="width:25%">
+                </colgroup>
+                <tr>
+                    <td><a href="styledcrud.html">HW4 StyledCRUD</a></td>
+                    <td><a href="methodtest.html">Part1 HTTP with JavaScript</a></td>
+                    <td><a href="webcomponent.html">Part2 Simple Web Component</a></td>
+                    <td><a href="extracredit.html">Part3 Using React / Vue</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="ani">Part1 : HTTP with JavaScript</h2>
+        <section>
+            <form>
+                <p><label for="recordID">Record ID : <input type="number" id="recordID"></label></p>
+                <p><label for="articleName">Article Name : <input type="text" id="articleName"></label></p>
+                <p><label for="articleBody">Article Body : <input type="textarea" id="articleBody"></label></p>
+                <span id="time"></span>
+            </form>
+        </section>
+        <section>
+            <button id="postButton">Post</button>
+            <button id="getButton">Get</button>
+            <button id="putButton">Put</button>
+            <button id="deleteButton">Delete</button>
+        </section>
+        <section>
+            <output id="result"></output>
+        </section>
+        <script src="js/hw5_part1.js"></script>
+    </main>
+    <hr>
+    <footer>
+        <p id="ftrcontent">Content of this site is under copyright by Jongmin</p>
+    </footer>
+
+</body>
+
+
+</html>

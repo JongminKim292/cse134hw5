@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap'); 
+*{
+    font-family: 'Open Sans';
+}
+
+a:link{text-decoration: none; color: #333333}
+a:visited{text-decoration: none; color:#333333}
+a:hover{text-decoration: none; color: gray;}
+a:active{text-decoration: none; color:gray;}
+#menu {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#menu td:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+footer{
+    color : gray;
+    text-align: center;
+}
+section{
+    margin-top : 1rem;
+    margin-bottom : 1rem;
+}
+button{
+    position: relative;
+    border: 3px solid #a3a1a1;
+    color: #6e6e6e;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    cursor: pointer;
+    white-space: normal;
+    word-break: break-all;
+}
+Button:hover {
+    background-color: #a3a1a1;
+    color: #e3dede;
+}
+/* 
+button-count{
+    display: block;
+    position: relative;
+    border: 3px solid #a3a1a1;
+    color: #6e6e6e;
+    max-width: 500px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+    cursor: pointer;
+    white-space: normal;
+    word-break: break-all;
+}
+button-count:hover {
+    background-color: #a3a1a1;
+    color: #e3dede;
+} */
+
+.bouttonCount{
+    padding: 1rem;
+    margin: 1rem;
+}
+

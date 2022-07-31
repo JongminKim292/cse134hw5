@@ -1,0 +1,95 @@
+<!-- HTML5 -->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>styledCRUD</title>
+    <link rel="stylesheet" href="css/styleCRUDcss.css">
+    <script src="https://kit.fontawesome.com/631bf30663.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <header>
+        <nav id = "menu">
+            <table style="width:100%">
+                <colgroup>
+                    <col style="width:25%">
+                    <col style="width:25%">
+                    <col style="width:25%">
+                    <col style="width:25%">
+                </colgroup>
+                <tr>
+                    <td><a href="styledcrud.html">HW4 StyledCRUD</a></td>
+                    <td><a href="methodtest.html">Part1 HTTP with JavaScript</a></td>
+                    <td><a href="webcomponent.html">Part2 Simple Web Component</a></td>
+                    <td><a href="extracredit.html">Part3 Using React / Vue</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="ani">styled CRUD</h2>
+        <section>
+            <h3>Posting</h3>
+                <dialog id="deleteDialog" class = "content">
+                    <p class = "content">Delete Post?</p>
+                    <div align="right">
+                        <button id="noDeleteConfirm">Cancel</button>
+                        <button id="deleteConfirm">Ok</button>
+                    </div>
+                </dialog>
+                
+                <dialog id="editDialog" class = "content">
+                    <label>Title:
+                        <input type="text" id = "changedTitle"></input>
+                    </label>
+                    <br><br>
+                    <label>Date:
+                        <input type="date" id = "changedDate"></input>
+                    </label>
+                    <br><br>
+                    <label>Summary:
+                        <input type="text" id = "changedSummary" class = "textField">
+                    </label>
+                    <br><br>
+                    <div align="right">
+                        <button id="editCancelBtn">Cancel</button>
+                        <button id="editBtn">Save</button>
+                    </div>
+                </dialog>
+                <dialog id="originalDialog" class = "content">
+                    <label>Title:
+                        <input type="text" id = "title"></input>
+                    </label>
+                    <br><br>
+                    <label>Date:
+                        <input type="date" id = "date"></input>
+                    </label>
+                    <br><br>
+                    <label>Summary:
+                        <input type="text" id = "summary" class = "textField"></select>
+                    </label>
+                    <br>
+                    <div align="right">
+                        <button id="cancelBtn">Cancel</button>
+                        <button id="addBtn">Save</button>
+                    </div>
+                </dialog>
+                <ul id = "postingList" class = "content">
+                </ul>
+                <button id="addButton">Add posting</button>
+
+            <script src="js/styledposts.js"></script>
+        </section>
+
+    </main>
+
+    <hr>
+    <footer>
+        <p id="ftrcontent">Content of this site is under copyright</p>
+    </footer>
+
+</body>
+
+
+</html>
